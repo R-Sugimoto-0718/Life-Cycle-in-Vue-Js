@@ -27,6 +27,9 @@ export default {
  },
  beforeMount() {
    alert("Before mount")
+ },
+ mounted() {
+   alert('Mounted')
  }
 }
 </script>
