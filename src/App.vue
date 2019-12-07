@@ -30,7 +30,11 @@ export default {
  },
  mounted() {
    alert('Mounted')
- }
+ },
+ beforeUpdate() {
+  alert('Before update');
+ },
+ 
 }
 </script>
 
