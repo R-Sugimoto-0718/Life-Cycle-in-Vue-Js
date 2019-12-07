@@ -1,7 +1,7 @@
 
 <template>
   <div>
-      <h3>Student: {{ messafe }}</h3>
+      <h3>Student: {{ message }}</h3>
   </div>
 </template>
 

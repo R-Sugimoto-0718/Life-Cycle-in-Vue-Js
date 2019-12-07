@@ -1,7 +1,8 @@
 
 <template>
   <div>
-      <h3>Employee: {{ messafe }}</h3>
+      <h3>Employee: {{ message }}</h3>
+      <!-- <button @click="updateMessage()">Click here to update</button> -->
   </div>
 </template>
 
@@ -11,7 +12,7 @@ export default {
         return {
             message: 'Hi I am Employee Component'
         }
-    },
+    }
 }
 </script>
 
