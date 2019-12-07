@@ -21,6 +21,12 @@ export default {
  },
  beforeCreate() {
    alert('Before Create')
+ },
+ created() {
+   alert('Created')
+ },
+ beforeMount() {
+   alert("Before mount")
  }
 }
 </script>
